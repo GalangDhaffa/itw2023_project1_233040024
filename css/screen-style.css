@@ -2,7 +2,6 @@
 @media screen and (max-width: 834px) {
   html {
     font-size: 10px;
-    overflow-x: hidden;
   }
 
   /* navbar */
@@ -11,7 +10,8 @@
   }
 
   nav {
-    min-width: 50%;
+    justify-content: flex-start;
+    max-width: 100%;
   }
 
   nav ul {
