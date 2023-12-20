@@ -19,9 +19,11 @@ background: linear-gradient(180deg, rgba(22,26,48,1) 30%, rgba(49,48,77,1) 70%, 
 }
 
 Nav {
+  bottom: 667px;
   position: fixed;
   display: flex;
-  background-color: #161a30;
+ background: transparent;
+ backdrop-filter: blur(60px);
   justify-content: space-around;
   color: #ffffffb6;
   width: 100%;
