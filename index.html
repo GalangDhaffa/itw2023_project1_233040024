@@ -6,6 +6,7 @@
     <title>Dhaffa Galang Fahriza | Portofolio</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/stylescreen.css" />
+    <link rel="stylesheet" href="css/particle.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&family=Whisper&display=swap"
       rel="stylesheet"
@@ -53,7 +54,12 @@
     </nav>
 
     <!-- home -->
-
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+    <!-- stats - count particles -->
+    <div class="count-particles">
+      <span class="js-count-particles">--</span> particles
+    </div>
     <section id="home">
       <div class="container-home">
         <div
@@ -95,12 +101,12 @@
           <hr />
           <p>
             Hi, Nama saya Dhaffa Galang Fahriza. Saya mahasiswa baru dari salah
-            satu universitas yang ada di bandung yaitu Universitas Pasundan,
+           satu universitas yang ada di bandung yaitu Universitas Pasundan,
             Saya mengambil jurusan Teknik Informatika, karena saya ingin bisa
             membuat web sendiri dan ingin mengusai full stack, saya lulusan dari
             salah satu smk swasta yang berada di bekasi yaitu SMKS Taman Harapan
             Baru. Saya lahir di Bekasi 28 Januari 2005, saya juga memiliki
-            beberapa hobi seperti bermain game dan bulu tangkis atau badminton.
+            beberapa hobi seperti bermain game dan bulu tangkis, badminton dan fotografi.
           </p>
         </div>
       </div>
@@ -264,6 +270,9 @@
             <a href="https://youtube.com/@Galangdhaffa"
               ><i class="fa-brands fa-youtube"></i
             ></a>
+            <a href="https://youtube.com/@Galangdhaffa"
+              ><i class="fa-brands fa-discord"></i
+            ></a>
           </div>
           <div class="footernav">
             <ul>
@@ -300,5 +309,11 @@
     <script>
       AOS.init();
     </script>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="js/particle.js"></script>
+    
   </body>
 </html>

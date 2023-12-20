@@ -12,7 +12,8 @@ html {
 
 body {
   font-family: "Kanit", sans-serif;
-  background-color: #161a30;
+  background: rgb(22,26,48);
+background: linear-gradient(180deg, rgba(22,26,48,1) 30%, rgba(49,48,77,1) 70%, rgba(51,77,89,1) 90%);
   color: white;
   max-width: 100%;
 }
@@ -148,29 +149,19 @@ nav ul li a:hover {
 
 /* Container home */
 .container-home {
-  padding-top: 50px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.img-home img {
-  position: absolute;
-  top: -600px;
-  z-index: 1;
-  left: -700px;
-}
-
 .pfp img {
-  width: 700px;
-}
-
-.name h2 {
-  font-size: 30px;
-  font-weight: 600;
+ filter: drop-shadow(5px 5px 2px #000000) ;
+  width: 550px;
 }
 
 .name h1 {
+  text-shadow: 2px 2px 3px #585858;
   font-size: 50px;
   font-weight: 700;
   color: #8bf;
@@ -329,28 +320,17 @@ nav ul li a:hover {
   padding-bottom: 200px;
 }
 
-.img-about {
-  position: absolute;
-  z-index: -1;
-  transform: scale(1);
-}
-
-.img-about2 {
-  position: absolute;
-  z-index: -3;
-  margin-top: 18%;
-  margin-left: -1200px;
-}
-
 .content-about {
   width: 1200px;
 }
 
 .content-about h1 {
+  text-shadow: 2px 2px 3px #585858;
   text-align: left;
 }
 
 .content-about hr {
+  text-shadow: 2px 2px 3px #585858;
   background-color: white;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -359,7 +339,8 @@ nav ul li a:hover {
 }
 
 .content-about p {
-  font-size: 16px;
+  text-shadow: 2px 2px 3px #585858;
+  font-size: 18px;
   text-align: justify;
 }
 
@@ -383,6 +364,7 @@ nav ul li a:hover {
 }
 
 .container-skill h1 {
+  text-shadow: 2px 2px 3px #585858;
   text-align: right;
   padding-bottom: 20px;
 }
@@ -428,10 +410,12 @@ nav ul li a:hover {
 }
 
 .container-box h1 {
+  text-shadow: 2px 2px 3px #585858;
   text-align: left;
 }
 
 .container-box hr {
+  text-shadow: 2px 2px 3px #585858;
   background-color: white;
   margin-top: 40px;
   width: 40%;
@@ -448,6 +432,7 @@ nav ul li a:hover {
 }
 
 .resume-box h1 {
+  text-shadow: 2px 2px 3px #585858;
   font-size: 30px;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -476,6 +461,7 @@ nav ul li a:hover {
 }
 
 .resume-box span p {
+  text-shadow: 2px 2px 3px #585858;
   color: #6a6a6a;
   position: absolute;
   margin-left: 200px;
@@ -483,6 +469,7 @@ nav ul li a:hover {
 }
 
 .resume-box span h2 {
+  text-shadow: 2px 2px 3px #585858;
   color: #000000;
   position: absolute;
   margin-left: 200px;
@@ -499,10 +486,11 @@ nav ul li a:hover {
 }
 
 .content-cf {
-  width: 600px;
+  width: 700px;
 }
 
 .container-cf h1 {
+  text-shadow: 2px 2px 3px #585858;
   text-align: center;
   font-size: 30px;
 }
@@ -512,7 +500,6 @@ nav ul li a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 40px;
-  width: 600px;
   text-align: center;
 }
 
@@ -581,7 +568,7 @@ form button:hover {
 
 /* Container footer */
 footer {
-  background-color: #31304d;
+  background-color: #334d59;
 }
 
 .container-footer {

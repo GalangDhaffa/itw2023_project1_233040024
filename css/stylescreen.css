@@ -37,6 +37,7 @@
 
   /* container home */
   .container-home {
+    
     flex-direction: column;
   }
 
@@ -219,6 +220,7 @@
 
   /* container home */
   .container-home {
+    padding-top: 180px;
     flex-direction: column;
   }
 
@@ -243,7 +245,7 @@
 
   /* container about */
   .container-about {
-    padding-top: 200px;
+    padding-top: 250px;
     padding-bottom: 10px;
     margin: 35px;
     flex-direction: row;
@@ -339,7 +341,6 @@
   }
 
   /* container contact */
-
   .contact form {
     align-content: center;
     margin-top: 40px;
