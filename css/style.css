@@ -13,12 +13,7 @@ html {
 body {
   font-family: "Kanit", sans-serif;
   background: #161a30;
-  background: linear-gradient(
-    180deg,
-    #161a30 30%,
-    #31304d 70%,
-    #334d59 90%
-  );
+  background: linear-gradient(180deg, #161a30 30%, #31304d 70%, #334d59 90%);
   color: white;
   max-width: 100%;
 }
@@ -396,9 +391,7 @@ nav ul li a:hover {
   margin-top: 120px;
   background-color: #31304d;
   border-radius: 20%;
-  
 }
-
 
 .card-box .box-skill:hover {
   transform: scale(1.5);
@@ -442,7 +435,6 @@ nav ul li a:hover {
   height: 500px;
   border-radius: 50px;
   background: #e0e0e0;
-  
 }
 
 .content-resume .resume-box:hover {
@@ -477,7 +469,7 @@ nav ul li a:hover {
 
 .resume-box span {
   margin-left: 99px;
-  text-shadow: 2px 2px 3px #585858
+  text-shadow: 2px 2px 3px #585858;
 }
 
 .resume-box span p {
