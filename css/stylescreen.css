@@ -213,6 +213,7 @@
 
   /* container home */
   .container-home {
+    padding-top: 150px;
     flex-direction: column;
   }
 
