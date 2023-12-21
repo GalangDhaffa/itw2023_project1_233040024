@@ -12,18 +12,23 @@ html {
 
 body {
   font-family: "Kanit", sans-serif;
-  background: rgb(22,26,48);
-background: linear-gradient(180deg, rgba(22,26,48,1) 30%, rgba(49,48,77,1) 70%, rgba(51,77,89,1) 90%);
+  background: rgb(22, 26, 48);
+  background: linear-gradient(
+    180deg,
+    rgba(22, 26, 48, 1) 30%,
+    rgba(49, 48, 77, 1) 70%,
+    rgba(51, 77, 89, 1) 90%
+  );
   color: white;
   max-width: 100%;
 }
 
 Nav {
-  bottom: 667px;
+  top: 0;
   position: fixed;
   display: flex;
- background: transparent;
- backdrop-filter: blur(60px);
+  background: transparent;
+  backdrop-filter: blur(60px);
   justify-content: space-around;
   color: #ffffffb6;
   width: 100%;
@@ -151,14 +156,14 @@ nav ul li a:hover {
 
 /* Container home */
 .container-home {
-  padding-top: 100px;
+  padding-top: 170px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .pfp img {
- filter: drop-shadow(5px 5px 2px #000000) ;
+  filter: drop-shadow(5px 5px 2px #000000);
   width: 550px;
 }
 
@@ -318,7 +323,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 250px;
+  padding-top: 280px;
   padding-bottom: 200px;
 }
 
@@ -379,8 +384,8 @@ nav ul li a:hover {
 }
 
 .box-skill {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   margin-top: 120px;
   background-color: #31304d;
   border-radius: 20%;
@@ -395,7 +400,7 @@ nav ul li a:hover {
 
 .card-box img {
   margin: 25px;
-  width: 200px;
+  width: 150px;
 }
 
 /* container resume */
@@ -403,7 +408,7 @@ nav ul li a:hover {
   height: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 80px;
+  padding-top: 90px;
   padding-bottom: 200px;
 }
 
@@ -460,6 +465,7 @@ nav ul li a:hover {
 
 .resume-box span {
   margin-left: 99px;
+  text-shadow: 2px 2px 3px #585858
 }
 
 .resume-box span p {
