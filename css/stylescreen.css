@@ -46,7 +46,7 @@
 
   /* container home */
   .container-home {
-    padding-top: 180px;
+    padding-top: 100px;
     flex-direction: column;
   }
 
@@ -71,8 +71,6 @@
 
   /* container about */
   .container-about {
-    padding-top: 250px;
-    padding-bottom: 10px;
     margin: 35px;
     flex-direction: row;
   }
@@ -91,7 +89,7 @@
 
   /* container skill */
   .container-skill {
-    padding: 100px 35px 0px 35px;
+    padding: 50px 35px 0px 35px;
   }
 
   .container-skill h1 {
@@ -121,7 +119,7 @@
 
   /* container Education */
   .container-box {
-    padding: 100px 35px 0 35px;
+    padding: 200px 35px 0 35px;
   }
 
   .container-box hr {
@@ -235,7 +233,7 @@
 
   /* container about */
   .container-about {
-    padding-top: 200px;
+    padding-top: 300px;
     padding-bottom: 10px;
     margin: 35px;
     flex-direction: row;
@@ -255,7 +253,7 @@
 
   /* container skill */
   .container-skill {
-    padding: 100px 35px 0px 35px;
+    padding: 0px 35px 0px 35px;
   }
 
   .container-skill h1 {
@@ -286,6 +284,7 @@
   /* container Education */
   .container-box {
     padding: 100px 35px 0 35px;
+    /* margin-top: 300px; */
   }
 
   .container-box hr {
@@ -323,6 +322,9 @@
   }
 
   /* container contact */
+  .container-cf  {
+    padding-top: 100px;
+  }
   .contact form {
     margin-top: 50px;
   }
@@ -331,6 +333,10 @@
     width: 300px;
   }
   /* container footer */
+  .container-footer {
+    padding-top: 0px;
+  }
+
   .footernav ul li a {
     gap: 5px;
   }
@@ -338,4 +344,5 @@
   .socialicons a i {
     font-size: 2vh;
   }
+
 }

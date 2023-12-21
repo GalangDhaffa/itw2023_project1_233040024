@@ -323,7 +323,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 280px;
+  padding-top: 300px;
   padding-bottom: 200px;
 }
 
@@ -358,7 +358,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-bottom: 200px;
 }
 
@@ -383,14 +383,6 @@ nav ul li a:hover {
   height: 3px;
 }
 
-.box-skill {
-  width: 200px;
-  height: 200px;
-  margin-top: 120px;
-  background-color: #31304d;
-  border-radius: 20%;
-}
-
 .card-box {
   display: flex;
   justify-content: center;
@@ -398,17 +390,32 @@ nav ul li a:hover {
   gap: 70px;
 }
 
+.box-skill {
+  width: 200px;
+  height: 200px;
+  margin-top: 120px;
+  background-color: #31304d;
+  border-radius: 20%;
+  
+}
+
+
+.card-box .box-skill:hover {
+  transform: scale(1.5);
+  transition: 0.5s all ease-in-out;
+}
+
 .card-box img {
   margin: 25px;
   width: 150px;
 }
 
-/* container resume */
+/* Container Education */
 .container-box {
   height: 100%;
   display: flex;
   justify-content: center;
-  padding-top: 90px;
+  padding-top: 150px;
   padding-bottom: 200px;
 }
 
@@ -435,6 +442,11 @@ nav ul li a:hover {
   height: 500px;
   border-radius: 50px;
   background: #e0e0e0;
+  
+}
+
+.content-resume .resume-box:hover {
+  transition: 0.5s ease-in-out;
   box-shadow: 10px 10px 50px #5a5a5a, -10px -10px 50px #ffffff;
 }
 
