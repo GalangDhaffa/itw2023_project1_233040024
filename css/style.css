@@ -12,12 +12,12 @@ html {
 
 body {
   font-family: "Kanit", sans-serif;
-  background: rgb(22, 26, 48);
+  background: #161a30;
   background: linear-gradient(
     180deg,
-    rgba(22, 26, 48, 1) 30%,
-    rgba(49, 48, 77, 1) 70%,
-    rgba(51, 77, 89, 1) 90%
+    #161a30 30%,
+    #31304d 70%,
+    #334d59 90%
   );
   color: white;
   max-width: 100%;
